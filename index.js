@@ -1,7 +1,7 @@
 function generateAkanName() {
-    let dayBorn = parseInt(document.getElementById("dayInput").value);
-    let monthBorn = parseInt(document.getElementById("monthInput").value);
-    let yearBorn = document.getElementById("yearInput").value;
+    let dayBorn = parseInt(document.getElementById("dayGiven").value);
+    let monthBorn = parseInt(document.getElementById("monthGiven").value);
+    let yearBorn = document.getElementById("yearGiven").value;
     
     let genderChoosing = document.getElementsByName("gender");
     function selectGender() {
