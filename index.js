@@ -1,3 +1,4 @@
+//get data from the user 
 function generateAkanName() {
     let dayBorn = parseInt(document.getElementById("dayGiven").value);
     let monthBorn = parseInt(document.getElementById("monthGiven").value);
@@ -12,7 +13,7 @@ function generateAkanName() {
     }      
 }
     let genderSelected = selectGender();
-
+//calculate day of the week the user was born based on input taken
     let dayOfTheWeekBorn = Math.floor((((parseInt(yearBorn.slice(0,2))/4)-2*parseInt(yearBorn.slice(0,2))-1)+
             ((5*parseInt(yearBorn.slice(2,4))/4))+((26*(monthBorn+1)/10))+dayBorn)%7);
 
@@ -25,7 +26,7 @@ function generateAkanName() {
     } else {
         indexOfArrays = dayOfTheWeekBorn;
     }
-    
+//output to the user their Akan name    
     if (genderSelected == "male" ) {
         alert(" Your Akan name is " + akanMaleNames[indexOfArrays] +"!!!");
 
