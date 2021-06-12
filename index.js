@@ -25,4 +25,14 @@ var generateAkanName = () =>{
     } else {
         indexOfArrays = dayOfWeekNumber;
     }
-  
+    
+    if (genderSelected == "male" ) {
+        alert(" Your Akan name is " + akanMaleNames[indexOfArrays] +"!!!");
+
+    } else if (genderSelected == "female" ) {
+        alert( " Your Akan name is " + akanFemaleNames[indexOfArrays] + "!!!");
+        
+    } else {
+        alert("Date or Month Invalid! Choose a Correct One!!");
+    }
+}
