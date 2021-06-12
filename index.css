@@ -1,3 +1,9 @@
 body {
     background-color: steelblue;
 }
+h1{
+    font-style: italic;
+    background-color: thistle;
+    text-align: center;
+    text-decoration-line: underline;
+}
