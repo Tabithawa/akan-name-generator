@@ -25,5 +25,14 @@
             <li>Click the submit button.</li>
             <li><em><strong>Refresh the page to try another date!!</strong></em></li>
         </ol>
+        <form onsubmit="return generateAkanName()">
+            <p>FILL THE FORM BELOW:</p>
+            <label for="dayOfBirth">Day:</label><br>
+            <input id="dayInput" type="number" name="dayOfBirth"  value="" min="1"  max="31" required><br>
+            <label for="monthOfBirth">Month:</label><br>
+            <input id="monthInput" type="number" name="monthOfBirth"  value="" min="1" max="12" required><br>
+            <label for="yearOfBirth">Year:</label><br>
+            <input id="yearInput" type="number" name="yearOfBirth"  value="" min="1900" max="2021" required>
+            <br>
 </body>
 </html>
