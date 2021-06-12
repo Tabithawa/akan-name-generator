@@ -6,7 +6,7 @@ Author => Tabitha Wainaina
 Setup information:
 Click the link in below to access the website , fill the form and click the submit button . Your Akan name will appear in a pop up message.
 
-*ADD LINK HERE TO GITHUB PAGES
+https://tabithawa.github.io/akan-name-generator/
 
 BDD:
 The user should fill the form and submit valid details for the day,month and year for the application to work.
