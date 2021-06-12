@@ -13,17 +13,17 @@ var generateAkanName = () =>{
 }
     let genderSelected = selectGender();
 
-    let dayOfWeekNumber = Math.floor((((parseInt(yearBorn.slice(0,2))/4)-2*parseInt(yearBorn.slice(0,2))-1)+
+    let dayOfTheWeekBorn = Math.floor((((parseInt(yearBorn.slice(0,2))/4)-2*parseInt(yearBorn.slice(0,2))-1)+
             ((5*parseInt(yearBorn.slice(2,4))/4))+((26*(monthBorn+1)/10))+dayBorn)%7);
 
     let akanMaleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     let akanFemaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];     
     
     let indexOfArrays;    
-    if (dayOfWeekNumber == 0){
+    if (dayOfTheWeekBorn == 0){
         indexOfArrays = 0;
     } else {
-        indexOfArrays = dayOfWeekNumber;
+        indexOfArrays = dayOfTheWeekBorn;
     }
     
     if (genderSelected == "male" ) {
