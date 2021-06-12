@@ -16,3 +16,8 @@ h1{
     text-align: center;
     
 }
+.mainFormToFill{
+    margin-top: 10px;
+    background-color: #99ff66;
+    padding: 50px;
+}
