@@ -18,7 +18,8 @@ function generateAkanName() {
             ((5*parseInt(yearBorn.slice(2,4))/4))+((26*(monthBorn+1)/10))+dayBorn)%7);
 
     let akanMaleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-    let akanFemaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];     
+    let akanFemaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+    let weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     
     let indexOfArrays;    
     if (dayOfTheWeekBorn == 0){
@@ -28,10 +29,10 @@ function generateAkanName() {
     }
 //output to the user their Akan name    
     if (genderSelected == "male" ) {
-        alert(" Your Akan name is " + akanMaleNames[indexOfArrays] +"!!!");
+        alert(" Your Akan name is " + akanMaleNames[indexOfArrays] +"because you were born on a " + weekDay[index]);
 
     } else if (genderSelected == "female" ) {
-        alert( " Your Akan name is " + akanFemaleNames[indexOfArrays] + "!!!");
+        alert( " Your Akan name is " + akanFemaleNames[indexOfArrays] + "because you were born on a " + weekDay[index]);
         
     } else {
         alert("Date or Month Invalid! Choose a Correct One!!");
