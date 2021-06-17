@@ -29,10 +29,10 @@ function generateAkanName() {
     }
 //output to the user their Akan name    
     if (genderSelected == "male" ) {
-        alert(" Your Akan name is " + akanMaleNames[indexOfArrays] +"because you were born on a " + weekDay[index]);
+        alert(" Your Akan name is " + akanMaleNames[indexOfArrays] +"because you were born on a " + weekDays[index]);
 
     } else if (genderSelected == "female" ) {
-        alert( " Your Akan name is " + akanFemaleNames[indexOfArrays] + "because you were born on a " + weekDay[index]);
+        alert( " Your Akan name is " + akanFemaleNames[indexOfArrays] + "because you were born on a " + weekDays[index]);
         
     } else {
         alert("Date or Month Invalid! Choose a Correct One!!");
