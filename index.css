@@ -1,14 +1,13 @@
 body {
-    background-color: steelblue;
+    background-color: black;
 }
 h1{
     font-style: italic;
-    background-color: thistle;
     text-align: center;
     text-decoration-line: underline;
 }
 .description{
-    background-color: #99ff66;
+    background-color: white;
     padding: 50px;
     
 }
@@ -18,14 +17,14 @@ h1{
 }
 .mainFormToFill{
     margin-top: 10px;
-    background-color: #99ff66;
+    background-color: white;
     padding: 50px;
 }
 .copy{
     font-style: italic;
 }
 footer{
-    background-color: #99ff66;
+    background-color: white;
     padding: 40px;
     text-align: center;
     margin-top: 20px;    
